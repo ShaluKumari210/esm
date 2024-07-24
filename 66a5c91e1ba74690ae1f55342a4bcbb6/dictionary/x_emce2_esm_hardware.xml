@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="8c074d521be74690ae1f55342a4bcbd1" extends="alm_asset" label="Hardware" max_length="40" name="x_emce2_esm_hardware" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="1" label="Quanitity" mandatory="true" max_length="40" name="quanitity" type="integer"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="requester"/>
